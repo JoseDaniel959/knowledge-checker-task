@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> 
+                
+    <!--bean definitions here -->
+    <bean id="knowledgeBank" class="com.epam.assessment.knowledge.model.KnowledgeBank"></bean>
+
+    <bean id="performanceResultBank" class="com.epam.assessment.knowledge.model.PerformanceResultBank"></bean>
+
+    <bean id="jsonPersistence" class="com.epam.assessment.knowledge.persistence.JsonPersistence">
+        <constructor-arg name="dataFilePath" value="data/knowledge.json" />
+        <property name="knowledgeBank" ref="knowledgeBank"></property>
+    </bean>
+    <bean id="fixedStrategy" class="com.epam.assessment.knowledge.logic.strategies.FixedStrategy">
+        <constructor-arg name="questionIndex" value="0" />
+
+    </bean>
+
+    <!-- QuestionServiceImp object -->
+    <bean id="questionServiceImp" class="com.epam.assessment.knowledge.service.QuestionServiceImp">
+        <constructor-arg name="questionSelectionStrategy" ref="fixedStrategy" />
+        <constructor-arg name="knowledgeBank" ref="knowledgeBank" />
+        <constructor-arg name="performanceResultBank" ref="performanceResultBank" />
+
+    </bean>
+
+    <!-- PerformanceResultImp -->
+
+    <bean id="performanceResultImp" class="com.epam.assessment.knowledge.service.PerformanceResultImp">
+        <constructor-arg name="performanceResultBank" ref="performanceResultBank" />
+    </bean>
+
+    <!-- Interface object -->
+    <bean id="interface" class="com.epam.assessment.knowledge.UI.Interface">
+        <constructor-arg name="questionServiceImp" ref="questionServiceImp" />
+        <constructor-arg name="performanceResultImp" ref="performanceResultImp" />
+
+    </bean>
+</beans>
