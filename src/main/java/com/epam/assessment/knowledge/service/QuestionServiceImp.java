@@ -77,12 +77,10 @@ public class QuestionServiceImp implements IquestionService {
         knowledgeBank.getElements()
         .forEach((knowledgeElement)->{
             knowledgeElement.calculateTotalWeight();
-            System.out.println(knowledgeElement);
         });
     }
 
     public void sortKnowledBankElemets(){
         knowledgeBank.getElements().sort((a,b) -> b.getWeight().compareTo(a.getWeight()));
-        System.out.println(knowledgeBank.getElements());
     }
 }
