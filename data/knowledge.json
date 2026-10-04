@@ -1,130 +1,176 @@
 [ {
   "id" : 1,
+  "category" : "Geography",
   "question" : "What is the capital of Germany?",
   "answer" : "Berlin",
-  "category" : "Geography"
+  "lastAsked" : "2026-08-26T21:46:32.143901867",
+  "history" : [ ]
 }, {
   "id" : 2,
+  "category" : "History",
   "question" : "When did Christopher Columbus discover the Americas",
   "answer" : "1492",
-  "category" : "History",
   "lastAsked" : "2026-02-11T20:16:24",
   "history" : [ false, true ]
 }, {
   "id" : 3,
+  "category" : "Culture",
   "question" : "Who is the director and writer of movie Star Wars 'A New Hope'?",
   "answer" : "George Lucas",
-  "category" : "Culture",
   "lastAsked" : "2026-01-30T16:51:36",
   "history" : [ true ]
 }, {
   "id" : 4,
+  "category" : "Geography",
   "question" : "What is the largest ocean on Earth?",
   "answer" : "Pacific Ocean",
-  "category" : "Geography"
+  "lastAsked" : "2026-08-26T21:55:24.524732737",
+  "history" : [ false, true ]
 }, {
   "id" : 5,
+  "category" : "Science",
   "question" : "What planet is known as the Red Planet?",
   "answer" : "Mars",
-  "category" : "Science"
+  "lastAsked" : null,
+  "history" : [ true ]
 }, {
   "id" : 6,
+  "category" : "Culture",
   "question" : "Who wrote the Harry Potter books?",
   "answer" : "J.K. Rowling",
-  "category" : "Culture"
+  "lastAsked" : "2026-08-26T21:51:17.815740592",
+  "history" : [ false, false, false ]
 }, {
   "id" : 7,
+  "category" : "Geography",
   "question" : "Which continent is Egypt in?",
   "answer" : "Africa",
-  "category" : "Geography"
+  "lastAsked" : "2026-08-26T21:47:35.70718216",
+  "history" : [ ]
 }, {
   "id" : 8,
+  "category" : "Science",
   "question" : "What is the value of Pi rounded to two decimal places?",
   "answer" : "3.14",
-  "category" : "Science"
+  "lastAsked" : "2026-08-26T21:56:37.786019763",
+  "history" : [ ]
 }, {
   "id" : 9,
+  "category" : "History",
   "question" : "In which country did the Olympic Games originate?",
   "answer" : "Greece",
-  "category" : "History"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 10,
+  "category" : "Science",
   "question" : "What is H2O more commonly known as?",
   "answer" : "Water",
-  "category" : "Science"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 11,
+  "category" : "Geography",
   "question" : "What is the capital city of France?",
   "answer" : "Paris",
-  "category" : "Geography"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 12,
+  "category" : "History",
   "question" : "Who sailed across the Atlantic Ocean in 1492?",
   "answer" : "Christopher Columbus",
-  "category" : "History"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 13,
+  "category" : "Science",
   "question" : "What do bees make?",
   "answer" : "Honey",
-  "category" : "Science"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 14,
+  "category" : "Geography",
   "question" : "Which country is famous for the pyramids?",
   "answer" : "Egypt",
-  "category" : "Geography"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 15,
+  "category" : "Geography",
   "question" : "What is the capital city of Germany?",
   "answer" : "Berlin",
-  "category" : "Geography"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 16,
+  "category" : "Food & Cooking",
   "question" : "Which country is famous for inventing pizza?",
   "answer" : "Italy",
-  "category" : "Food & Cooking"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 17,
+  "category" : "Geography",
   "question" : "Which river flows through Budapest?",
   "answer" : "Danube",
-  "category" : "Geography"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 18,
+  "category" : "Geography",
   "question" : "What is the capital city of Austria?",
   "answer" : "Vienna",
-  "category" : "Geography"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 19,
+  "category" : "Culture",
   "question" : "Which famous composer was born in Salzburg, Austria?",
   "answer" : "Wolfgang Amadeus Mozart",
-  "category" : "Culture"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 20,
+  "category" : "Geography",
   "question" : "What is the highest mountain in the Alps?",
   "answer" : "Mont Blanc",
-  "category" : "Geography"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 21,
+  "category" : "Culture",
   "question" : "Which famous festival with masks is held in Venice?",
   "answer" : "Carnival",
-  "category" : "Culture"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 22,
+  "category" : "Art",
   "question" : "Which famous composer became deaf but continued to write music?",
   "answer" : "Beethoven",
-  "category" : "Art"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 23,
+  "category" : "Art",
   "question" : "What is the name of the musical instrument with black and white keys?",
   "answer" : "Piano",
-  "category" : "Art"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 24,
+  "category" : "Nature",
   "question" : "Which bird is known for mimicking sounds and speech?",
   "answer" : "Parrot",
-  "category" : "Nature"
+  "lastAsked" : null,
+  "history" : [ ]
 }, {
   "id" : 25,
+  "category" : "Nature",
   "question" : "What is the name of the colorful arc seen in the sky after rain?",
   "answer" : "Rainbow",
-  "category" : "Nature"
+  "lastAsked" : null,
+  "history" : [ ]
 } ]
